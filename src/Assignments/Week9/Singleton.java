@@ -10,6 +10,7 @@ public class Singleton {
     Connection con;
     Statement stmt;
     ResultSet rs;
+    //hkhbi
     private  Singleton(){
         ConnectDB obj=new ConnectDB();
         con=obj.get_connection();
